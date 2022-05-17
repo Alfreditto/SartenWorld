@@ -1,0 +1,280 @@
+* {
+  color: black;
+}
+
+body {
+  background-image: url("img/sartenes/Fondo.png");
+  height: 100%;
+  background-size: 120% 120%;
+  color: black;
+}
+
+#Lema {
+  background-color: cornflowerblue;
+  font-size: 18px;
+  top: 0;
+  width: 98%;
+  margin: 0 auto;
+  position: relative;
+  border: 3px dashed black;
+
+}
+
+#Lema table {
+  width: 100%;
+}
+
+#Lema table img {
+  height: 2%;
+  width: 2%;
+}
+
+#Lema table h1 {
+  font-size: 1.2rem;
+  font-family: sans-serif;
+  line-height: 1.4;
+  color: black;
+}
+
+#Enlaces a:hover {
+  color: rgb(0, 0, 0);
+}
+
+#Enlaces a:active {
+  color: rgb(0, 0, 0);
+}
+
+#Enlaces {
+  background-color: rgb(36, 213, 232);
+  font-size: 20px;
+  top: 0px;
+  width: 98%;
+  margin: 0 auto;
+  position: relative;
+  border: 3px dashed black;
+  box-shadow: 0vw 0.8vw 2vw rgba(0, 0, 0, 0.651);
+}
+
+#Enlaces img {
+  height: 3%;
+  width: 3%;
+
+}
+
+#Enlaces a {
+  padding: 1px 67px 1px;
+  line-height: 55px;
+  text-shadow: -2px 2px 0 rgba(145, 145, 145, 0.384);
+  scroll-behavior: smooth;
+  font-size: 24px;
+}
+
+#main {
+  position: relative;
+  float: left;
+  width: 100%;
+}
+
+#main .sarten1 {
+  margin: 0 auto;
+  background: aliceblue;
+  border: solid 1px black;
+  height: 250px;
+  padding: 10px;
+  width: 90%;
+  bottom: 10%;
+}
+
+#main .sarten1 h2 {
+  text-align: center;
+  top: 0;
+  width: 20%;
+  margin: 0 auto;
+}
+
+#main .sarten1 img {
+  position: relative;
+  float: left;
+  width: 15%;
+}
+
+#main .sarten1 .caracteristicas1 {
+  position: relative;
+  float: left;
+  padding-left: 50px;
+  bottom: 40px;
+  font-size: 20px;
+}
+
+#main .sarten1 .descripcion1 {
+  position: relative;
+  float: right;
+  width: 40%;
+  font-size: 18px;
+}
+
+#main .sarten2 {
+  margin: 0 auto;
+  background: aliceblue;
+  border: solid 1px black;
+  height: 250px;
+  padding: 10px;
+  width: 90%;
+  bottom: 10%;
+}
+
+#main .sarten2 h2 {
+  text-align: center;
+  top: 0;
+  width: 20%;
+  margin: 0 auto;
+}
+
+#main .sarten2 img {
+  position: relative;
+  float: left;
+  width: 15%;
+}
+
+#main .sarten2 .caracteristicas2 {
+  position: relative;
+  float: left;
+  padding-left: 50px;
+  bottom: 40px;
+  font-size: 20px;
+}
+
+#main .sarten2 .descripcion2 {
+  position: relative;
+  float: right;
+  width: 40%;
+  font-size: 18px;
+}
+
+#main .sarten3 {
+  margin: 0 auto;
+  background: aliceblue;
+  border: solid 1px black;
+  height: 250px;
+  padding: 10px;
+  width: 90%;
+  bottom: 10%;
+}
+
+#main .sarten3 h2 {
+  text-align: center;
+  top: 0;
+  width: 20%;
+  margin: 0 auto;
+}
+
+#main .sarten3 img {
+  position: relative;
+  float: left;
+  width: 15%;
+}
+
+#main .sarten3 .caracteristicas3 {
+  position: relative;
+  float: left;
+  padding-left: 50px;
+  bottom: 40px;
+  font-size: 20px;
+}
+
+#main .sarten3 .descripcion3 {
+  position: relative;
+  float: right;
+  width: 40%;
+  font-size: 18px;
+}
+
+#main .sarten4 {
+  margin: 0 auto;
+  background: aliceblue;
+  border: solid 1px black;
+  height: 250px;
+  padding: 10px;
+  width: 90%;
+  bottom: 10%;
+}
+
+#main .sarten4 h2 {
+  text-align: center;
+  top: 0;
+  width: 20%;
+  margin: 0 auto;
+}
+
+#main .sarten4 img {
+  position: relative;
+  float: left;
+  width: 15%;
+}
+
+#main .sarten4 .caracteristicas4 {
+  position: relative;
+  float: left;
+  padding-left: 50px;
+  bottom: 40px;
+  font-size: 20px;
+}
+
+#main .sarten4 .descripcion4 {
+  position: relative;
+  float: right;
+  width: 40%;
+  font-size: 18px;
+}
+
+#redesSociales {
+  position: absolute;
+  top: 180%;
+  font-size: 24px;
+  background-color: cornflowerblue;
+  border: 3px dashed black;
+  text-align: center;
+
+}
+
+#redesSociales a {
+  margin-left: 5px;
+}
+
+#redesSociales a img {
+  height: 2%;
+  width: 2%;
+  padding: 1px 50px 1px;
+}
+#carruselEtc {
+  margin: 0 auto;
+  background: aliceblue;
+  border: solid 1px black;
+  padding: 10px;
+  width: 90%;
+}
+#carruselEtc p {
+  font-size: 20px;
+}
+#carruselEtc h1 {
+  text-align: center;
+}
+#carruselEtc .carousel {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+}
+#carruselEtc .carousel #imagen {
+  width: 80%;
+  height: 600px;
+  background-size: 100%, 100%;
+  background-repeat: no-repeat;
+}
+#carruselEtc #login {
+  width: min-content;
+  margin: 0 auto;
+}
+
+body {
+  background-image: url("img/sartenes/Fondo.png");
+}
