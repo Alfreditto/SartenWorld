@@ -4,8 +4,6 @@
 
 body {
   background-image: url("img/sartenes/Fondo.png");
-  height: 100%;
-  background-size: 120% 120%;
   color: black;
 }
 
@@ -228,8 +226,8 @@ body {
 }
 
 #redesSociales {
-  position: absolute;
-  top: 180%;
+  position: relative;
+  float: right;
   font-size: 24px;
   background-color: cornflowerblue;
   border: 3px dashed black;
@@ -271,10 +269,6 @@ body {
   background-repeat: no-repeat;
 }
 #carruselEtc #login {
-  width: min-content;
+  width: 30%;
   margin: 0 auto;
-}
-
-body {
-  background-image: url("img/sartenes/Fondo.png");
 }
